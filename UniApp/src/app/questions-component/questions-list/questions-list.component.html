@@ -1,0 +1,23 @@
+<div class="content">
+    <div class="content__questions">
+        <h1>Available questions</h1>
+        <div class="content__question" *ngFor="let question of availableQuestions.questions">
+            <p>{{question.question}}</p>
+            <div class="icon-group">
+                <fa-icon [icon]="addIcon" (click)="addQuestion(question)"></fa-icon>
+                <fa-icon [icon]="editIcon"></fa-icon>
+            </div> 
+        </div>
+    </div>
+    <div class="content__questions">
+        <h1>Selected Questions</h1>
+        <div class="content__question" *ngFor="let question of selectedQuestions.questions">
+            <p>{{question.question}}</p>
+            <div class="icon-group">
+                <fa-icon [icon]="removeIcon" (click)="removeQuestion(question)"></fa-icon>
+                <fa-icon [icon]="editIcon"></fa-icon>
+            </div>   
+        </div>
+    </div>
+</div>
+<button [disabled]="canStart()" class="btn" routerLink="/0" >Start Test</button>

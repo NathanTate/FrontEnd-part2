@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="test">
+        <div *ngIf="!isLastQuestion; else end">
+            <div class="question">{{currentQuestion.question}}</div>
+            <div class="test__answer" *ngFor="let answer of currentQuestion.answers">
+                <input type="radio" (change)="onRadioChange($event.target.value)" name="answer" [value]="answer.isCorrect">
+                {{answer.answer}}
+            </div>
+            <button [disabled]="userAnswer === ''" routerLink="/{{questionId + 1}}" (click)="check()" class="btn btn--end">{{buttonText}}</button>
+        </div>
+    </div>
+</div>
+
+<ng-template #end>
+    <div class="score" >
+        <div>Your score is: {{score}}%</div>
+        <div>Correct answers: {{answerStatistics.correct}}</div>
+        <div>Wrong answers: {{answerStatistics.wrong}}</div>
+        <button (click)="restart()" class="btn" style="left: 30%; right: 30%;">Restart</button>
+        <a class="link" routerLink="/questions-list">Back to Questions</a>
+    </div>
+</ng-template>

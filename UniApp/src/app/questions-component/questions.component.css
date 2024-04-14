@@ -1,0 +1,19 @@
+.questions-container {
+    width: 1200px;
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+.btn {
+    display: block;
+    color: #000;
+    margin-inline: auto;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    margin-block: 1rem;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

@@ -1,0 +1,9 @@
+.main {
+    height: 100%;
+    width: 1000px;
+    max-width: 80%;
+    margin-inline: auto;
+    margin-block: 6%;
+    overflow: hidden;
+    border: 1px solid black;
+}

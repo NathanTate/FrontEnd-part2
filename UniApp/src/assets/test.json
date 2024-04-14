@@ -1,0 +1,215 @@
+{
+    "questions": [
+      {
+        "question": "What is the capital of France?",
+        "answers": [
+          {
+            "answer": "Paris",
+            "isCorrect": true
+          },
+          {
+            "answer": "London",
+            "isCorrect": false
+          },
+          {
+            "answer": "Berlin",
+            "isCorrect": false
+          },
+          {
+            "answer": "Rome",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "answers": [
+          {
+            "answer": "Harper Lee",
+            "isCorrect": true
+          },
+          {
+            "answer": "J.K. Rowling",
+            "isCorrect": false
+          },
+          {
+            "answer": "Stephen King",
+            "isCorrect": false
+          },
+          {
+            "answer": "George Orwell",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "What is the chemical symbol for water?",
+        "answers": [
+          {
+            "answer": "H2O",
+            "isCorrect": true
+          },
+          {
+            "answer": "CO2",
+            "isCorrect": false
+          },
+          {
+            "answer": "O2",
+            "isCorrect": false
+          },
+          {
+            "answer": "H2SO4",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "Who painted the Mona Lisa?",
+        "answers": [
+          {
+            "answer": "Leonardo da Vinci",
+            "isCorrect": true
+          },
+          {
+            "answer": "Vincent van Gogh",
+            "isCorrect": false
+          },
+          {
+            "answer": "Pablo Picasso",
+            "isCorrect": false
+          },
+          {
+            "answer": "Michelangelo",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "Which planet is known as the Red Planet?",
+        "answers": [
+          {
+            "answer": "Mars",
+            "isCorrect": true
+          },
+          {
+            "answer": "Jupiter",
+            "isCorrect": false
+          },
+          {
+            "answer": "Saturn",
+            "isCorrect": false
+          },
+          {
+            "answer": "Venus",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "What is the tallest mountain in the world?",
+        "answers": [
+          {
+            "answer": "Mount Everest",
+            "isCorrect": true
+          },
+          {
+            "answer": "K2",
+            "isCorrect": false
+          },
+          {
+            "answer": "Kangchenjunga",
+            "isCorrect": false
+          },
+          {
+            "answer": "Lhotse",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "Who is credited with discovering penicillin?",
+        "answers": [
+          {
+            "answer": "Alexander Fleming",
+            "isCorrect": true
+          },
+          {
+            "answer": "Louis Pasteur",
+            "isCorrect": false
+          },
+          {
+            "answer": "Marie Curie",
+            "isCorrect": false
+          },
+          {
+            "answer": "Albert Einstein",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "What is the chemical symbol for gold?",
+        "answers": [
+          {
+            "answer": "Au",
+            "isCorrect": true
+          },
+          {
+            "answer": "Ag",
+            "isCorrect": false
+          },
+          {
+            "answer": "Fe",
+            "isCorrect": false
+          },
+          {
+            "answer": "Cu",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+        "answers": [
+          {
+            "answer": "Venus",
+            "isCorrect": true
+          },
+          {
+            "answer": "Mercury",
+            "isCorrect": false
+          },
+          {
+            "answer": "Mars",
+            "isCorrect": false
+          },
+          {
+            "answer": "Jupiter",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "question": "Who developed the theory of relativity?",
+        "answers": [
+          {
+            "answer": "Albert Einstein",
+            "isCorrect": true
+          },
+          {
+            "answer": "Isaac Newton",
+            "isCorrect": false
+          },
+          {
+            "answer": "Stephen Hawking",
+            "isCorrect": false
+          },
+          {
+            "answer": "Galileo Galilei",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+  

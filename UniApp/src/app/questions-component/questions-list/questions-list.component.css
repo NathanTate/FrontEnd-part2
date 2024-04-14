@@ -1,0 +1,42 @@
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    color: #fff;
+    font-weight: 500;
+    align-items: start;
+}
+
+.content__questions h1 {
+    text-align: center;
+}
+
+.content__questions {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.content__question {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 0.75em;
+}
+
+.content__question .icon-group * {
+    margin-inline: 0.25rem;
+}
+
+.btn {
+    display: block;
+    border: none;
+    margin-inline: auto;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    margin-block: 1rem;
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
